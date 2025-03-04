@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Theater</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+<header class="bg-black py-4 px-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+    <nav>
+        <ul class="flex space-x-6">
+            <li><a href="#" class="hover:text-red-500">Home</a></li>
+            <li><a href="#" class="hover:text-red-500">Movies</a></li>
+            <li><a href="#" class="hover:text-red-500">Showtimes</a></li>
+            <li><a href="#" class="hover:text-red-500">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="relative h-screen bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?movie');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center p-6">
+        <h2 class="text-5xl font-bold mb-4">Now Showing: The Grand Adventure</h2>
+        <p class="text-lg mb-6">Experience the thrill on the big screen.</p>
+        <a href="#" class="bg-red-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-700">Get Tickets</a>
+    </div>
+</section>
+
+<section class="py-12 px-6">
+    <h2 class="text-4xl font-bold text-center mb-8">Now Playing</h2>
+    <div id="movies-container" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Movies will be dynamically inserted here -->
+    </div>
+</section>
+
+<footer class="bg-black py-6 text-center text-gray-400">
+    <p>&copy; 2025 KinoXP. All rights reserved.</p>
+</footer>
+
+<script>
+    async function fetchMovies() {
+        try {
+            const response = await fetch("http://localhost:8080/api/movies");
+            const movies = await response.json();
+            console.log(movies);  // Check if movies are being fetched correctly
+
+            const container = document.getElementById("movies-container");
+            container.innerHTML = ""; // Clear previous content
+
+            if (movies.length === 0) {
+                console.log("No movies to display.");
+            }
+
+            movies.forEach(movie => {
+                const movieElement = `
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <a href="moviedetails.html?id=${movie.id}">
+                            <img src="${movie.posterUrl || 'https://via.placeholder.com/300x450?text=No+Image'}" class="w-full rounded-lg mb-4" alt="Movie Poster">
+                            <h3 class="text-xl font-semibold">${movie.title}</h3>
+                            <p class="text-sm text-gray-400">${movie.genre}</p>
+                        </a>
+                    </div>
+                `;
+                container.innerHTML += movieElement;
+            });
+        } catch (error) {
+            console.error("Error fetching movies:", error);
+        }
+    }
+
+    fetchMovies();
+</script>
+</body>
+</html>
