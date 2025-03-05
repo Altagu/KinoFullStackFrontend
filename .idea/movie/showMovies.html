@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Now Showing - KinoXP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+<header class="bg-black py-6 px-6 flex justify-between items-center">
+  <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+  <nav>
+    <ul class="flex space-x-6">
+      <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+      <li><a href="showMovies.html" class="hover:text-red-500">Movies</a></li>
+      <li><a href="#" class="hover:text-red-500">Showtimes</a></li>
+      <li><a href="login.html" class="hover:text-red-500">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="py-12 px-6">
+  <h2 class="text-4xl font-bold text-center mb-8">Now Playing</h2>
+  <div id="movies-container" class="space-y-6">
+    <!-- Movies will be dynamically inserted here -->
+  </div>
+</section>
+
+<footer class="bg-black py-6 text-center text-gray-400">
+  <p>&copy; 2025 KinoXP. All rights reserved.</p>
+</footer>
+
+<script>
+  async function fetchMovies() {
+    try {
+      const response = await fetch("http://localhost:8080/api/movies");
+      const movies = await response.json();
+
+      const container = document.getElementById("movies-container");
+      container.innerHTML = "";
+
+      movies.forEach(movie => {
+        const showtimes = Array.isArray(movie.showtimes)
+                ? movie.showtimes.map(time => `<span class='bg-gray-700 px-3 py-1 rounded-lg'>${time}</span>`).join(" ")
+                : "<span class='text-gray-400'>No showtimes available</span>";
+
+        const movieElement = `
+                <div class="bg-gray-800 p-6 rounded-lg flex flex-col md:flex-row items-center justify-between">
+                    <div class="flex items-center space-x-6">
+                        <img src="${movie.imagePath || 'https://via.placeholder.com/150x200?text=No+Image'}" class="w-32 h-48 rounded-lg" alt="Movie Poster">
+                        <div>
+                            <h3 class="text-2xl font-semibold">${movie.title}</h3>
+                            <p class="text-sm text-gray-400 mb-2">${movie.genre}</p>
+                            <div class="flex flex-wrap gap-2 text-white">${showtimes}</div>
+                        </div>
+                    </div>
+                    <a href="ticket.html?id=${movie.id}" class="bg-red-500 text-white px-4 py-2 rounded-lg text-lg font-semibold hover:bg-red-700 mt-4 md:mt-0">
+                        Get Tickets
+                    </a>
+                </div>
+            `;
+        container.innerHTML += movieElement;
+      });
+    } catch (error) {
+      console.error("Error fetching movies:", error);
+    }
+  }
+
+  fetchMovies();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeIn 0.8s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+<header class="bg-black py-4 px-6 flex justify-between items-center shadow-lg">
+  <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+  <a href="index.html" class="text-gray-300 hover:text-red-500 transition duration-300">← Back to Home</a>
+</header>
+
+<section class="py-12 px-6 flex justify-center">
+  <div id="movie-info" class="bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-4xl w-full fade-in">
+    <div class="flex flex-col md:flex-row items-center">
+      <img id="movie-poster" class="w-72 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-8" alt="Movie Poster">
+      <div class="text-center md:text-left">
+        <h2 id="movie-title" class="text-4xl font-bold mb-2 text-red-400"></h2>
+        <p id="movie-genre" class="text-lg text-gray-300 mb-4"></p>
+        <p id="movie-description" class="text-md text-gray-200 leading-relaxed"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black py-6 text-center text-gray-400">
+  <p>&copy; 2025 KinoXP. All rights reserved.</p>
+</footer>
+
+<script>
+  async function fetchMovieDetails() {
+    const params = new URLSearchParams(window.location.search);
+    const movieId = params.get("id");
+
+    if (!movieId) {
+      document.getElementById("movie-info").innerHTML = "<p class='text-red-500 text-center'>No movie selected.</p>";
+      return;
+    }
+
+    try {
+      const response = await fetch(`http://localhost:8080/api/movies/${movieId}`);
+
+      if (!response.ok) {
+        throw new Error("Movie not found");
+      }
+
+      const movie = await response.json();
+
+      document.getElementById("movie-title").textContent = movie.title;
+      document.getElementById("movie-genre").textContent = movie.genre;
+      document.getElementById("movie-description").textContent = movie.description;
+      document.getElementById("movie-poster").src = movie.imagePath || "https://via.placeholder.com/300x450?text=No+Image";
+      document.getElementById("movie-poster").alt = movie.title;
+
+    } catch (error) {
+      document.getElementById("movie-info").innerHTML = `<p class='text-red-500 text-center'>Error fetching movie details: ${error.message}</p>`;
+    }
+  }
+
+  window.onload = fetchMovieDetails;
+</script>
+
+</body>
+</html>
