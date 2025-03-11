@@ -1,0 +1,345 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef0e04b7-1848-4bd8-9631-373c9274f423\" name=\"Changes\" comment=\"ini\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/login.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/login.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/movieDetails.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/movieDetails.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Altagu&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Altagu/KinoFullStackFrontend.git&quot;,\r\n    &quot;accountId&quot;: &quot;1dcb51e9-7e5c-4953-a432-d193329f06f0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tqdfzKFV4Efk1PbXSGYEfaL329\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"JavaScript Debug.index.html.executor\": \"Run\",\r\n    \"JavaScript Debug.movieDetails.html.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef0e04b7-1848-4bd8-9631-373c9274f423\" name=\"Changes\" comment=\"\" />\r\n      <created>1741083645979</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1741083645979</updated>\r\n      <workItem from=\"1741083647232\" duration=\"16343000\" />\r\n      <workItem from=\"1741169258557\" duration=\"10948000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"ini\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741093159922</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741093159922</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ini\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ini\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cbfbbbf4d72d2575bc708550f9dcbd10d8a4483d)
++++ b/.idea/workspace.xml	(date 1741275649018)
+@@ -4,11 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="ini">
+-      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/login.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/movieDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movieDetails.html" afterDir="false" />
++    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="folderized">
++      <change beforePath="$PROJECT_DIR$/.idea/movie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/movie/movieDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/movieDetails.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/movie/showMovies.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/showMovies.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/index.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -19,6 +21,7 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="HTML File" />
++        <option value="JavaScript File" />
+       </list>
+     </option>
+   </component>
+@@ -46,23 +49,28 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "JavaScript Debug.index.html.executor": "Run",
+-    "JavaScript Debug.movieDetails.html.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
++    &quot;JavaScript Debug.movieDetails.html.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\alex\WebstormProjects\KinoFullStackFrontend\.idea\movie" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -79,7 +87,10 @@
+       <option name="presentableId" value="Default" />
+       <updated>1741083645979</updated>
+       <workItem from="1741083647232" duration="16343000" />
+-      <workItem from="1741169258557" duration="10948000" />
++      <workItem from="1741169258557" duration="15502000" />
++      <workItem from="1741259588472" duration="6537000" />
++      <workItem from="1741268321460" duration="1574000" />
++      <workItem from="1741275584908" duration="64000" />
+     </task>
+     <task id="LOCAL-00001" summary="ini">
+       <option name="closed" value="true" />
+@@ -89,7 +100,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1741093159922</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="folderized">
++      <option name="closed" value="true" />
++      <created>1741181548573</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1741181548573</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -97,6 +116,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="ini" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ini" />
++    <MESSAGE value="folderized" />
++    <option name="LAST_COMMIT_MESSAGE" value="folderized" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/movie/movieDetails.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Movie Details</title>\r\n  <script src=\"https://cdn.tailwindcss.com\"></script>\r\n  <style>\r\n    .fade-in {\r\n      opacity: 0;\r\n      transform: translateY(10px);\r\n      animation: fadeIn 0.8s ease-in-out forwards;\r\n    }\r\n    @keyframes fadeIn {\r\n      to {\r\n        opacity: 1;\r\n        transform: translateY(0);\r\n      }\r\n    }\r\n  </style>\r\n</head>\r\n<body class=\"bg-gray-900 text-white\">\r\n\r\n<header class=\"bg-black py-4 px-6 flex justify-between items-center shadow-lg\">\r\n  <h1 class=\"text-3xl font-bold text-red-500\">KinoXP</h1>\r\n  <a href=\"index.html\" class=\"text-gray-300 hover:text-red-500 transition duration-300\">← Back to Home</a>\r\n</header>\r\n\r\n<section class=\"py-12 px-6 flex justify-center\">\r\n  <div id=\"movie-info\" class=\"bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-4xl w-full fade-in\">\r\n    <div class=\"flex flex-col md:flex-row items-center\">\r\n      <img id=\"movie-poster\" class=\"w-72 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-8\" alt=\"Movie Poster\">\r\n      <div class=\"text-center md:text-left\">\r\n        <h2 id=\"movie-title\" class=\"text-4xl font-bold mb-2 text-red-400\"></h2>\r\n        <p id=\"movie-genre\" class=\"text-lg text-gray-300 mb-4\"></p>\r\n        <p id=\"movie-description\" class=\"text-md text-gray-200 leading-relaxed\"></p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<footer class=\"bg-black py-6 text-center text-gray-400\">\r\n  <p>&copy; 2025 KinoXP. All rights reserved.</p>\r\n</footer>\r\n\r\n<script>\r\n  async function fetchMovieDetails() {\r\n    const params = new URLSearchParams(window.location.search);\r\n    const movieId = params.get(\"id\");\r\n\r\n    if (!movieId) {\r\n      document.getElementById(\"movie-info\").innerHTML = \"<p class='text-red-500 text-center'>No movie selected.</p>\";\r\n      return;\r\n    }\r\n\r\n    try {\r\n      const response = await fetch(`http://localhost:8080/api/movies/${movieId}`);\r\n\r\n      if (!response.ok) {\r\n        throw new Error(\"Movie not found\");\r\n      }\r\n\r\n      const movie = await response.json();\r\n\r\n      document.getElementById(\"movie-title\").textContent = movie.title;\r\n      document.getElementById(\"movie-genre\").textContent = movie.genre;\r\n      document.getElementById(\"movie-description\").textContent = movie.description;\r\n      document.getElementById(\"movie-poster\").src = movie.imagePath || \"https://via.placeholder.com/300x450?text=No+Image\";\r\n      document.getElementById(\"movie-poster\").alt = movie.title;\r\n\r\n    } catch (error) {\r\n      document.getElementById(\"movie-info\").innerHTML = `<p class='text-red-500 text-center'>Error fetching movie details: ${error.message}</p>`;\r\n    }\r\n  }\r\n\r\n  window.onload = fetchMovieDetails;\r\n</script>\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/movie/movieDetails.html b/.idea/movie/movieDetails.html
+--- a/.idea/movie/movieDetails.html	(revision cbfbbbf4d72d2575bc708550f9dcbd10d8a4483d)
++++ b/.idea/movie/movieDetails.html	(date 1741269020187)
+@@ -3,78 +3,148 @@
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <title>Movie Details</title>
++  <title>Movie Details | KinoXP</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+-  <style>
+-    .fade-in {
+-      opacity: 0;
+-      transform: translateY(10px);
+-      animation: fadeIn 0.8s ease-in-out forwards;
+-    }
+-    @keyframes fadeIn {
+-      to {
+-        opacity: 1;
+-        transform: translateY(0);
+-      }
+-    }
+-  </style>
++  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ </head>
+ <body class="bg-gray-900 text-white">
++<header class="bg-black py-4 px-6 flex justify-between items-center shadow-md">
+ 
+-<header class="bg-black py-4 px-6 flex justify-between items-center shadow-lg">
+-  <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+-  <a href="index.html" class="text-gray-300 hover:text-red-500 transition duration-300">← Back to Home</a>
++  <a href="index.html">
++    <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
++  </a>
++  <nav>
++    <ul class="flex space-x-6">
++      <li><a href="index.html" class="hover:text-red-500">Home</a></li>
++      <li><a href="showMovies.html" class="hover:text-red-500">Movies</a></li>
++      <li><a href="#" class="hover:text-red-500">Showtimes</a></li>
++      <li><a href="login.html" class="hover:text-red-500">Login</a></li>
++    </ul>
++  </nav>
+ </header>
+ 
+-<section class="py-12 px-6 flex justify-center">
+-  <div id="movie-info" class="bg-gray-800 p-8 rounded-2xl shadow-2xl max-w-4xl w-full fade-in">
+-    <div class="flex flex-col md:flex-row items-center">
+-      <img id="movie-poster" class="w-72 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-8" alt="Movie Poster">
+-      <div class="text-center md:text-left">
+-        <h2 id="movie-title" class="text-4xl font-bold mb-2 text-red-400"></h2>
+-        <p id="movie-genre" class="text-lg text-gray-300 mb-4"></p>
+-        <p id="movie-description" class="text-md text-gray-200 leading-relaxed"></p>
+-      </div>
+-    </div>
+-  </div>
+-</section>
++<!-- Hero Section with Backdrop -->
++<div id="movie-backdrop" class="w-full h-64 bg-cover bg-center relative overflow-hidden">
++  <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
++</div>
++
++<!-- Main Content -->
++<main class="container mx-auto px-6 -mt-32 relative z-10">
++  <div id="movie-details" class="flex flex-col lg:flex-row gap-8">
++    <!-- Left Column -->
++    <div class="w-full lg:w-1/4">
++      <!-- Movie Poster -->
++      <img id="movie-poster" class="w-full rounded-lg shadow-lg border-2 border-gray-800" src="" alt="Movie Poster">
++
++      <!-- Movie Quick Info -->
++      <div class="mt-6 bg-gray-800 rounded-lg p-4 shadow-lg">
++        <div class="flex items-center mb-4">
++          <div class="bg-red-500 text-white rounded-full w-12 h-12 flex items-center justify-center mr-3">
++            <span id="movie-rating" class="font-bold text-lg">8.5</span>
++          </div>
++          <div>
++            <p class="text-sm text-gray-400">User Rating</p>
++            <div class="flex text-yellow-400 text-sm">
++              <i class="fas fa-star"></i>
++              <i class="fas fa-star"></i>
++              <i class="fas fa-star"></i>
++              <i class="fas fa-star"></i>
++              <i class="fas fa-star-half-alt"></i>
++            </div>
++          </div>
++        </div>
++
++        <div class="border-t border-gray-700 pt-4 mt-4">
++          <p id="movie-duration" class="text-gray-300 mb-2 flex items-center">
++            <i class="far fa-clock mr-2 text-red-500"></i>
++            <span>120 min</span>
++          </p>
++          <p id="movie-age" class="text-gray-300 mb-2 flex items-center">
++            <i class="fas fa-user-shield mr-2 text-red-500"></i>
++            <span>12+</span>
++          </p>
++          <p id="release-date" class="text-gray-300 mb-2 flex items-center">
++            <i class="far fa-calendar-alt mr-2 text-red-500"></i>
++            <span>2025</span>
++          </p>
++        </div>
++
++        <!-- Get Tickets Button -->
++        <a href="#" class="mt-4 bg-red-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-700 block text-center">
++          Get Tickets
++        </a>
++      </div>
++    </div>
++
++    <!-- Right Column -->
++    <div class="w-full lg:w-3/4">
++      <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
++        <!-- Movie Title and Genre -->
++        <h1 id="movie-title" class="text-4xl font-bold mb-2"></h1>
++        <p id="movie-genre" class="text-lg text-gray-400 mb-6"></p>
++
++        <!-- Tabs Navigation -->
++        <div class="border-b border-gray-700 mb-6">
++          <ul class="flex flex-wrap -mb-px text-sm font-medium text-center">
++            <li class="mr-2">
++              <a href="#overview" class="inline-block p-4 border-b-2 border-red-500 rounded-t-lg text-white">Overview</a>
++            </li>
++            <li class="mr-2">
++              <a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-red-500 hover:border-red-500">Cast & Crew</a>
++            </li>
++            <li class="mr-2">
++              <a href="#" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-red-500 hover:border-red-500">Reviews</a>
++            </li>
++          </ul>
++        </div>
++
++        <!-- Movie Description -->
++        <div id="overview">
++          <h2 class="text-2xl font-semibold mb-4">Plot Summary</h2>
++          <p id="movie-description" class="text-gray-300 mb-8 text-lg leading-relaxed"></p>
++
++          <!-- Movie Trailer -->
++          <div id="trailer-container" class="mb-8">
++            <h2 class="text-2xl font-semibold mb-4 flex items-center">
++              <i class="fas fa-film mr-2 text-red-500"></i>
++              Watch Trailer
++            </h2>
++            <div class="relative overflow-hidden rounded-lg shadow-lg">
++              <iframe id="movie-trailer" class="w-full aspect-video" src="" allowfullscreen></iframe>
++            </div>
++          </div>
++
++          <!-- Photos Section -->
++          <div id="photos-section" class="mb-8">
++            <h2 class="text-2xl font-semibold mb-4 flex items-center">
++              <i class="fas fa-images mr-2 text-red-500"></i>
++              Photos
++            </h2>
++            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
++              <div class="bg-gray-700 rounded-lg overflow-hidden h-32 flex items-center justify-center">
++                <span class="text-gray-500">Photo 1</span>
++              </div>
++              <div class="bg-gray-700 rounded-lg overflow-hidden h-32 flex items-center justify-center">
++                <span class="text-gray-500">Photo 2</span>
++              </div>
++              <div class="bg-gray-700 rounded-lg overflow-hidden h-32 flex items-center justify-center">
++                <span class="text-gray-500">Photo 3</span>
++              </div>
++              <div class="bg-gray-700 rounded-lg overflow-hidden h-32 flex items-center justify-center">
++                <span class="text-gray-500">Photo 4</span>
++              </div>
++            </div>
++          </div>
++        </div>
++      </div>
++    </div>
++  </div>
++</main>
+ 
+-<footer class="bg-black py-6 text-center text-gray-400">
++<footer class="bg-black py-6 mt-12 text-center text-gray-400">
+   <p>&copy; 2025 KinoXP. All rights reserved.</p>
+ </footer>
+ 
+-<script>
+-  async function fetchMovieDetails() {
+-    const params = new URLSearchParams(window.location.search);
+-    const movieId = params.get("id");
+-
+-    if (!movieId) {
+-      document.getElementById("movie-info").innerHTML = "<p class='text-red-500 text-center'>No movie selected.</p>";
+-      return;
+-    }
+-
+-    try {
+-      const response = await fetch(`http://localhost:8080/api/movies/${movieId}`);
+-
+-      if (!response.ok) {
+-        throw new Error("Movie not found");
+-      }
+-
+-      const movie = await response.json();
+-
+-      document.getElementById("movie-title").textContent = movie.title;
+-      document.getElementById("movie-genre").textContent = movie.genre;
+-      document.getElementById("movie-description").textContent = movie.description;
+-      document.getElementById("movie-poster").src = movie.imagePath || "https://via.placeholder.com/300x450?text=No+Image";
+-      document.getElementById("movie-poster").alt = movie.title;
+-
+-    } catch (error) {
+-      document.getElementById("movie-info").innerHTML = `<p class='text-red-500 text-center'>Error fetching movie details: ${error.message}</p>`;
+-    }
+-  }
+-
+-  window.onload = fetchMovieDetails;
+-</script>
+-
++<script src="movieDetails.js"></script>
+ </body>
+-</html>
++</html>
+\ No newline at end of file
