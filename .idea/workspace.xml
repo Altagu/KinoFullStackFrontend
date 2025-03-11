@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="ini">
-      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movieDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movieDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Altagu/KinoFullStackFrontend.git&quot;,
-    &quot;accountId&quot;: &quot;1dcb51e9-7e5c-4953-a432-d193329f06f0&quot;
+    &quot;accountId&quot;: &quot;d9326db7-d94e-4f43-90ea-4bc88a26f14a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,11 +49,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.editShow.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.movieDetails.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +65,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adria\Desktop\Skole\3. Semester\Programmering\Webstorm\KinoFullStackFrontend\.idea\WorkSchedule\WorkScheduleScripts" />
+      <recent name="C:\Users\adria\Desktop\Skole\3. Semester\Programmering\Webstorm\KinoFullStackFrontend\.idea\Shows\html" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,6 +88,8 @@
       <updated>1741083645979</updated>
       <workItem from="1741083647232" duration="16343000" />
       <workItem from="1741169258557" duration="10948000" />
+      <workItem from="1741263706337" duration="4178000" />
+      <workItem from="1741268019983" duration="15628000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
