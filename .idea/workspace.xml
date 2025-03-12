@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="ini">
+    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="fixed movieDetails.html pt.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +30,12 @@
     &quot;assignee&quot;: &quot;Altagu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Altagu/KinoFullStackFrontend.git&quot;,
-    &quot;accountId&quot;: &quot;d9326db7-d94e-4f43-90ea-4bc88a26f14a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Altagu/KinoFullStackFrontend.git",
+    "accountId": "1dcb51e9-7e5c-4953-a432-d193329f06f0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -90,6 +90,7 @@
       <workItem from="1741169258557" duration="10948000" />
       <workItem from="1741263706337" duration="4178000" />
       <workItem from="1741268019983" duration="15628000" />
+      <workItem from="1741781265438" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -107,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741692259587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed movieDetails.html">
+      <option name="closed" value="true" />
+      <created>1741693261106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741693261106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed movieDetails.html pt.2">
+      <option name="closed" value="true" />
+      <created>1741693494499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741693494499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ini" />
-    <option name="LAST_COMMIT_MESSAGE" value="ini" />
+    <MESSAGE value="fixed movieDetails.html" />
+    <MESSAGE value="fixed movieDetails.html pt.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed movieDetails.html pt.2" />
   </component>
 </project>
