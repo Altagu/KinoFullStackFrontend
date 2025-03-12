@@ -1,8 +1,3 @@
-/*****************************************
- * EditWorkScheduleScript.js
- * JavaScript for Editing a Work Schedule Entry
- *****************************************/
-
 // Hent query parameter fra URL (hvis nødvendigt)
 function getQueryParameter(name) {
     const urlParams = new URLSearchParams(window.location.search);

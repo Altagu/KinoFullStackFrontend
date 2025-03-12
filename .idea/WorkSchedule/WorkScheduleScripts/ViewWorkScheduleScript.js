@@ -1,8 +1,3 @@
-/*****************************************
- * ViewWorkScheduleScript.js
- * JavaScript for Viewing Weekly Work Schedule
- *****************************************/
-
 // Hjælpefunktioner til datoer
 function getMonday(d) {
     const date = new Date(d);
