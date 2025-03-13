@@ -4,8 +4,11 @@
   "description": "",
   "main": ".idea/movie/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build step defined, skipping build"
+    "test": "echo \",Error: no test specified\", && exit 1",
+    "build": "echo \",No build step defined, skipping build."
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  }
 }
