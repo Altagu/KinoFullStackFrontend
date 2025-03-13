@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="lolol">
-      <change beforePath="$PROJECT_DIR$/.idea/Shows/showScript/editShowScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shows/showScript/editShowScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/EditWorkScheduleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/EditWorkScheduleScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/ViewWorkScheduleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/ViewWorkScheduleScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie/TicketPurchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/TicketPurchase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie/movieDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/movieDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movie/showMovies.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/showMovies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="pls fucking virk" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +92,7 @@
       <workItem from="1741778851171" duration="597000" />
       <workItem from="1741786198968" duration="317000" />
       <workItem from="1741800723054" duration="2067000" />
-      <workItem from="1741876834423" duration="1333000" />
+      <workItem from="1741876834423" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -144,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741786721225</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pls fucking virk">
+      <option name="closed" value="true" />
+      <created>1741878192935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741878192935</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ini" />
     <MESSAGE value="lolol" />
-    <option name="LAST_COMMIT_MESSAGE" value="lolol" />
+    <MESSAGE value="pls fucking virk" />
+    <option name="LAST_COMMIT_MESSAGE" value="pls fucking virk" />
   </component>
 </project>
