@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="pls fucking virk" />
+    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="pls fucking virk pt 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +95,7 @@
       <workItem from="1741778851171" duration="597000" />
       <workItem from="1741786198968" duration="317000" />
       <workItem from="1741800723054" duration="2067000" />
-      <workItem from="1741876834423" duration="1721000" />
+      <workItem from="1741876834423" duration="2469000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -142,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741878192935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pls fucking virk pt 2">
+      <option name="closed" value="true" />
+      <created>1741878623048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741878623048</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +186,7 @@
     <MESSAGE value="ini" />
     <MESSAGE value="lolol" />
     <MESSAGE value="pls fucking virk" />
-    <option name="LAST_COMMIT_MESSAGE" value="pls fucking virk" />
+    <MESSAGE value="pls fucking virk pt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="pls fucking virk pt 2" />
   </component>
 </project>

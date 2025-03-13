@@ -5,10 +5,7 @@
   "main": ".idea/movie/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "build": "echo \"No build step defined, skipping build"
   },
-  "private": true,
-  "engines": {
-    "node": "18.x"
-  }
+  "private": true
 }
