@@ -1,3 +1,6 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 // Hjælpefunktioner til datoer
 function getMonday(d) {
     const date = new Date(d);
@@ -51,7 +54,7 @@ function loadWeeklySchedule() {
     // Opdater headeren med datoer for ugen
     updateTableHeader();
 
-    fetch(`http://localhost:8080/api/workschedule/week?start=${startDate}&end=${endDate}`)
+    fetch(`${API_URL}/api/workschedule/week?start=${startDate}&end=${endDate}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error("Network response was not ok when fetching weekly schedule");

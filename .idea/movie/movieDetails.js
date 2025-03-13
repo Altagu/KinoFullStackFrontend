@@ -1,3 +1,6 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 async function fetchMovieDetails() {
     const urlParams = new URLSearchParams(window.location.search);
     const movieId = urlParams.get('id');
@@ -7,7 +10,7 @@ async function fetchMovieDetails() {
     }
 
     try {
-        const response = await fetch(`http://localhost:8080/api/movies/${movieId}`);
+        const response = await fetch(`${API_URL}/api/movies/${movieId}`);
         const movie = await response.json();
 
         document.getElementById("movie-title").textContent = movie.title;

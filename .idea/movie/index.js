@@ -1,6 +1,9 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 async function fetchMovies() {
     try {
-        const response = await fetch("http://localhost:8080/api/movies");
+        const response = await fetch(`${API_URL}/api/movies`);
         const movies = await response.json();
         console.log(movies);  // Check if movies are being fetched correctly
 

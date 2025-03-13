@@ -1,7 +1,10 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 // Fetch movies and display them
 async function fetchMovies() {
     try {
-        const response = await fetch("http://localhost:8080/api/movies");
+        const response = await fetch("${API_URL}/api/movies");
         const movies = await response.json();
 
         const container = document.getElementById("movies-container");
@@ -45,7 +48,7 @@ async function fetchMovies() {
 // Function to open modal with movie details
 async function openMovieModal(movieId) {
     try {
-        const response = await fetch(`http://localhost:8080/api/movies/${movieId}`);
+        const response = await fetch(`${API_URL}/api/movies/${movieId}`);
         const movie = await response.json();
 
         // Populate modal data

@@ -1,3 +1,6 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 // Hent query parameter fra URL (hvis nødvendigt)
 function getQueryParameter(name) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -6,7 +9,7 @@ function getQueryParameter(name) {
 
 // Load medarbejdere og fyld dropdown-menuen
 function loadEmployees() {
-    fetch('http://localhost:8080/api/employees')
+    fetch('${API_URL}/api/employees')
         .then(response => {
             if (!response.ok) throw new Error("Failed to fetch employees");
             return response.json();
@@ -27,7 +30,7 @@ function loadEmployees() {
 
 // Load vagter for den valgte medarbejder og fyld shift dropdown-menuen
 function loadEmployeeShifts(employeeId) {
-    fetch('http://localhost:8080/api/workschedule')
+    fetch('${API_URL}/api/workschedule')
         .then(response => {
             if (!response.ok) throw new Error("Failed to fetch work schedules");
             return response.json();
@@ -66,7 +69,7 @@ function loadEmployeeShifts(employeeId) {
 
 // Når en vagt vælges, udfyld formularfelterne med den specifikke vagt
 function fillFormFields(scheduleId) {
-    fetch(`http://localhost:8080/api/workschedule/${scheduleId}`)
+    fetch(`${API_URL}/api/workschedule/${scheduleId}`)
         .then(response => {
             if (!response.ok) throw new Error("Failed to fetch schedule by id");
             return response.json();
@@ -92,7 +95,7 @@ function updateSchedule(scheduleId) {
         }
     };
 
-    fetch(`http://localhost:8080/api/workschedule/${scheduleId}`, {
+    fetch(`${API_URL}/api/workschedule/${scheduleId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedData)

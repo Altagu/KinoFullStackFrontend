@@ -223,11 +223,14 @@
 </div>
 
 <script>
+    const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
     let selectedShow = null;
     let selectedSeats = [];
 
     // Fetch available shows
-    fetch("http://localhost:8080/api/shows")
+    fetch("${API_URL}/api/shows")
         .then(response => response.json())
         .then(shows => {
             const showsGrid = document.getElementById("showsGrid");
@@ -271,7 +274,7 @@
     // Fetch seat layout
     function fetchSeats(theatreId, showId) {
         // Include both theatreId and showId in the API call
-        fetch(`http://localhost:8080/api/shows/theatres/${theatreId}/shows/${showId}/seats`)
+        fetch(`${API_URL}/api/shows/theatres/${theatreId}/shows/${showId}/seats`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch seats');
@@ -386,7 +389,7 @@
             seats: selectedSeats
         };
 
-        fetch("http://localhost:8080/api/shows/reservations", {
+        fetch("${API_URL}/api/shows/reservations", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(bookingData)

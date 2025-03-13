@@ -1,6 +1,9 @@
+const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+
+
 // Function to fetch the list of shows and populate the dropdown menu
 function fetchShowList() {
-    fetch('http://localhost:8080/api/shows2')
+    fetch('${API_URL}/api/shows2')
         .then(response => {
             if (!response.ok) {
                 throw new Error("Network response was not ok when fetching show list");
@@ -25,7 +28,7 @@ function fetchShowList() {
 
 // Function to fetch data for a specific show and fill in the form
 function fetchShowData(showId) {
-    fetch(`http://localhost:8080/api/shows2/${showId}`)
+    fetch(`${API_URL}/api/shows2/${showId}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error("Network response was not ok when fetching show data");
@@ -50,7 +53,7 @@ function updateShow(id) {
         showTime: document.getElementById('showTime').value
     };
 
-    fetch(`http://localhost:8080/api/shows2/${id}`, {
+    fetch(`${API_URL}/api/shows2/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
