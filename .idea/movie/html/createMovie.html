@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Movie | KinoXP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+<header class="bg-black py-4 px-6 flex justify-between items-center shadow-md">
+    <a href="index.html">
+        <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+    </a>
+    <nav>
+        <ul class="flex space-x-6">
+            <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+            <li><a href="showMovies.html" class="hover:text-red-500">Movies</a></li>
+            <li><a href="#" class="hover:text-red-500">Showtimes</a></li>
+            <li><a href="login.html" class="hover:text-red-500">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main class="container mx-auto px-6 py-8">
+    <div class="max-w-4xl mx-auto">
+        <!-- Page Title -->
+        <div class="flex items-center mb-6">
+            <i class="fas fa-film text-red-500 mr-3 text-2xl"></i>
+            <h1 class="text-3xl font-bold">Add New Movie</h1>
+        </div>
+
+        <!-- Form Container -->
+        <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+            <form id="createMovieForm" class="space-y-6">
+                <!-- Title -->
+                <div>
+                    <label for="title" class="block text-lg font-medium mb-2">Movie Title</label>
+                    <input type="text" id="title" name="title" required
+                           class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+
+                <!-- Genre -->
+                <div>
+                    <label for="genre" class="block text-lg font-medium mb-2">Genre</label>
+                    <select id="genre" name="genre" required
+                            class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                        <option value="" disabled selected>Select a genre</option>
+                        <option value="HORROR">Horror</option>
+                        <option value="ROMANCE">Romance</option>
+                        <option value="ACTION">Action</option>
+                        <option value="FANTASY">Fantasy</option>
+                        <option value="SCIENCE_FICTION">Science Fiction</option>
+                        <option value="EPIC">Epic</option>
+                        <option value="DRAMA">Drama</option>
+                        <option value="MUSIC">Music</option>
+                        <option value="OTHER">Other</option>
+                    </select>
+                </div>
+
+                <!-- Two columns layout for age and duration -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="ageLimit" class="block text-lg font-medium mb-2">Age Limit</label>
+                        <input type="number" id="ageLimit" name="ageLimit" min="0" required
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                    </div>
+                    <div>
+                        <label for="duration" class="block text-lg font-medium mb-2">Duration (minutes)</label>
+                        <input type="number" id="duration" name="duration" min="1" required
+                               class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <div>
+                    <label for="description" class="block text-lg font-medium mb-2">Plot Summary</label>
+                    <textarea id="description" name="description" rows="5" required
+                              class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
+                </div>
+
+                <!-- Image Path -->
+                <div>
+                    <label for="imagePath" class="block text-lg font-medium mb-2">Image URL Path</label>
+                    <input type="text" id="imagePath" name="imagePath"
+                           placeholder="/images/movie-name.jpg"
+                           class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <p class="text-sm text-gray-400 mt-1">Leave empty to use default image</p>
+                </div>
+
+                <!-- Trailer Path -->
+                <div>
+                    <label for="trailerPath" class="block text-lg font-medium mb-2">Trailer URL</label>
+                    <input type="text" id="trailerPath" name="trailerPath"
+                           placeholder="https://www.youtube.com/embed/trailer-id"
+                           class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+
+                <!-- Submit Button -->
+                <div class="pt-4">
+                    <button type="submit" class="w-full bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                        Add Movie
+                    </button>
+                </div>
+            </form>
+
+            <!-- Status Message -->
+            <div id="statusMessage" class="mt-6 hidden p-4 rounded-lg text-center"></div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-black py-6 text-center text-gray-400 mt-12">
+    <p>&copy; 2025 KinoXP. All rights reserved.</p>
+</footer>
+
+<script src="../createMovie.js"></script>
+
+</body>
+</html>

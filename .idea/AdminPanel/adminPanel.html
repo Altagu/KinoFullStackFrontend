@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel | KinoXP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+<header class="bg-black py-4 px-6 flex justify-between items-center shadow-md">
+  <a href="../movie/html/index.html">
+    <h1 class="text-3xl font-bold text-red-500">KinoXP</h1>
+  </a>
+  <nav>
+    <ul class="flex space-x-6">
+      <li><a href="../movie/html/index.html" class="hover:text-red-500">Home</a></li>
+      <li><a href="../movie/html/showMovies.html" class="hover:text-red-500">Movies</a></li>
+      <li><a href="#" class="hover:text-red-500">Showtimes</a></li>
+      <li><a href="../movie/html/login.html" class="hover:text-red-500">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container mx-auto px-6 py-12">
+  <h2 class="text-4xl font-bold text-red-500 mb-6">Admin Panel</h2>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <a href="../WorkSchedule/html/viewWorkSchedule.html" class="bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:bg-gray-700 transition">
+      <i class="fas fa-calendar-alt text-4xl text-red-500 mb-4"></i>
+      <h3 class="text-xl font-semibold">View Work Schedule</h3>
+    </a>
+    <a href="../WorkSchedule/html/editWorkSchedule.html" class="bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:bg-gray-700 transition">
+      <i class="fas fa-edit text-4xl text-red-500 mb-4"></i>
+      <h3 class="text-xl font-semibold">Edit Work Schedule</h3>
+    </a>
+    <a href="../Shows/html/editShow.html" class="bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:bg-gray-700 transition">
+      <i class="fas fa-film text-4xl text-red-500 mb-4"></i>
+      <h3 class="text-xl font-semibold">Edit Show</h3>
+    </a>
+    <a href="../movie/html/createMovie.html" class="bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:bg-gray-700 transition">
+      <i class="fas fa-plus-circle text-4xl text-red-500 mb-4"></i>
+      <h3 class="text-xl font-semibold">Create Movie</h3>
+    </a>
+  </div>
+</main>
+
+<footer class="bg-black py-6 text-center text-gray-400">
+  <p>&copy; 2025 KinoXP. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
