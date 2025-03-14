@@ -10,7 +10,7 @@ function getQueryParameter(name) {
 
 // Load medarbejdere og fyld dropdown-menuen
 function loadEmployees() {
-    fetch('${API_URL}/api/employees')
+    fetch(`${API_URL}/api/employees`)
         .then(response => {
             if (!response.ok) throw new Error("Failed to fetch employees");
             return response.json();
@@ -31,7 +31,7 @@ function loadEmployees() {
 
 // Load vagter for den valgte medarbejder og fyld shift dropdown-menuen
 function loadEmployeeShifts(employeeId) {
-    fetch('${API_URL}/api/workschedule')
+    fetch(`${API_URL}/api/workschedule`)
         .then(response => {
             if (!response.ok) throw new Error("Failed to fetch work schedules");
             return response.json();
