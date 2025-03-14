@@ -1,9 +1,10 @@
-const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+const API_URL = "https://kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net";
+
 
 
 // Function to fetch the list of shows and populate the dropdown menu
 function fetchShowList() {
-    fetch('${API_URL}/api/shows2')
+    fetch(`${API_URL}/api/shows2`)
         .then(response => {
             if (!response.ok) {
                 throw new Error("Network response was not ok when fetching show list");

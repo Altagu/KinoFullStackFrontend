@@ -1,4 +1,5 @@
-const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+const API_URL = "https://kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net";
+
 
 
 // Hjælpefunktioner til datoer

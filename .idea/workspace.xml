@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="pls fucking virk pt 4" />
+    <list default="true" id="ef0e04b7-1848-4bd8-9631-373c9274f423" name="Changes" comment="pls fucking virk pt 5">
+      <change beforePath="$PROJECT_DIR$/.idea/Shows/showScript/editShowScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shows/showScript/editShowScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/EditWorkScheduleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/EditWorkScheduleScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/ViewWorkScheduleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSchedule/WorkScheduleScripts/ViewWorkScheduleScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/TicketPurchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/html/TicketPurchase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/Scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/movieDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/html/movieDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/movieDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/Scripts/movieDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/showMovies.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/html/showMovies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie/showMovies.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie/Scripts/showMovies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,6 +78,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alex\WebstormProjects\KinoFullStackFrontend\.idea\AdminPanel" />
+      <recent name="C:\Users\alex\WebstormProjects\KinoFullStackFrontend\.idea\movie\Scripts" />
+      <recent name="C:\Users\alex\WebstormProjects\KinoFullStackFrontend\.idea\movie\html" />
       <recent name="C:\Users\adria\Desktop\Skole\3. Semester\Programmering\Webstorm\KinoFullStackFrontend\.idea\WorkSchedule\WorkScheduleScripts" />
       <recent name="C:\Users\adria\Desktop\Skole\3. Semester\Programmering\Webstorm\KinoFullStackFrontend\.idea\Shows\html" />
     </key>
@@ -92,7 +108,8 @@
       <workItem from="1741778851171" duration="597000" />
       <workItem from="1741786198968" duration="317000" />
       <workItem from="1741800723054" duration="2067000" />
-      <workItem from="1741876834423" duration="2791000" />
+      <workItem from="1741876834423" duration="4463000" />
+      <workItem from="1741951640561" duration="5839000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <option name="closed" value="true" />
@@ -166,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741879595286</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pls fucking virk pt 5">
+      <option name="closed" value="true" />
+      <created>1741879842016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741879842016</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +227,7 @@
     <MESSAGE value="pls fucking virk pt 2" />
     <MESSAGE value="pls fucking virk pt 3" />
     <MESSAGE value="pls fucking virk pt 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="pls fucking virk pt 4" />
+    <MESSAGE value="pls fucking virk pt 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="pls fucking virk pt 5" />
   </component>
 </project>

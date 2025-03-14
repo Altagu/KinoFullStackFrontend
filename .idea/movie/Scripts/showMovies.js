@@ -1,10 +1,11 @@
-const API_URL = "kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net"
+const API_URL = "https://kinofullstack-epcfgehdhse5eufz.northeurope-01.azurewebsites.net";
+
 
 
 // Fetch movies and display them
 async function fetchMovies() {
     try {
-        const response = await fetch("${API_URL}/api/movies");
+        const response = await fetch(`${API_URL}/api/movies`);
         const movies = await response.json();
 
         const container = document.getElementById("movies-container");
